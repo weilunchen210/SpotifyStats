@@ -30,8 +30,28 @@ body{
 
 .welcome{
     color:white;
-    margin-top:2rem;
-    margin-bottom:2rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.tabs{
+    margin-bottom:0.5rem;
+}
+
+.tab{
+    padding:0.5rem 1rem 0.5rem 1rem;
+    border:0;
+    background:none;
+    font-family: 'Montserrat', 'Arial', 'Helvetica Neue', sans-serif;
+    color:white;
+}
+
+.tab:hover{
+    cursor:pointer;
+}
+
+.tab-active{
+    border-bottom: 0.2rem solid #1db954;
 }
 
 .content{
