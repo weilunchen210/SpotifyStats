@@ -1,0 +1,22 @@
+{
+  "name": "spotify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main-script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weilunchen210/SpotifyStats.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weilunchen210/SpotifyStats/issues"
+  },
+  "homepage": "https://github.com/weilunchen210/SpotifyStats#readme",
+  "dependencies": {
+    "chart.js": "^4.5.0"
+  }
+}
