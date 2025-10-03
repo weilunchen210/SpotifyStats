@@ -57,3 +57,28 @@ function switchTab(tab){
             break;
     }
 }
+
+const ctx = document.getElementById('ListenGraph');
+
+new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        datasets: [{
+            label: '# of Votes',
+            data: [12, 19, 3, 5, 2, 3],
+            borderWidth: 1,
+            borderColor: "#1db954",
+            pointRadius:0,
+            tension:0.2,
+            borderWidth:3
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
